@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen2">
+
+
+
+
+    <TextView
+        android:id="@+id/phoneno"
+        android:layout_width="152dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/screen2id1"
+        android:textAppearance="@style/idscreen2"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/enter_the_o"
+        android:layout_width="144dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:text="@string/enter_the_o"
+        android:textAppearance="@style/enter_the_o"
+        android:gravity="top"
+        />
+
+    <!-- Rectangle 1 -->
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+
+
+    <EditText
+        android:id="@+id/otp_field"
+        android:layout_width="48dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="177dp"
+        android:maxLength="4"
+        android:background="@null"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:textAppearance="@style/idscreen23"
+        android:gravity="center_horizontal|top"
+        />
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="96dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="225dp"
+        android:background="@drawable/rectangle_3"
+        />
+
+    <TextView
+        android:id="@+id/Continuebtn"
+        android:layout_width="63dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="236dp"
+        android:text="@string/Continue"
+        android:textAppearance="@style/Continue"
+        android:gravity="center_horizontal|top"
+        />
+
+
+
+
+
+
+</RelativeLayout>

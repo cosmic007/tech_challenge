@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">techchallenge</string>
+    <string name="enter_your_">Enter Your\nPhone Number </string>
+    <string name="some_id">+91</string>
+    <!-- strings.xml -->
+    <string name="some_id2">9999999999</string>
+    <!-- strings.xml -->
+    <string name="continue2">Continue</string>
+    <!-- strings.xml -->
+    <string name="screen2id1">+91 9999999999</string>
+    <!-- strings.xml -->
+    <string name="enter_the_o">Enter The\nOTP</string>
+
+    <string name="Continue">Continue</string>
+    <string name="notes">Notes</string>
+    <string name="personal_me">Personal messages to you</string>
+
+
+
+
+
+</resources>
