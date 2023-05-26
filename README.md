@@ -1,2 +1,3 @@
-# tech_challenge
-I have no further experience in using API,Kotlin and this project is incomplete.
+# This project is incomplete
+I have no further experience in using API and Kotlin.
+Will fix the code after learning it.
